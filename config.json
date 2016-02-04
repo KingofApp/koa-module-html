@@ -13,10 +13,10 @@
   },
   "requires": [],
   "canContain": false,
-  "view": "modules/html/index.html",
-  "files": ["modules/html/controller.js"],
+  "view": "http://resources.kingofapp.com/modules/html/index.html",
+  "files": ["http://resources.kingofapp.com/modules/html/controller.js"],
   "scope": {
-    "value": "<p style='color:#39a9d3'>Hello!</p>"
+    "value": ""
   },
   "config": [{
     "type": "textarea",
