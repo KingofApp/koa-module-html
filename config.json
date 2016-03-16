@@ -52,13 +52,13 @@
       "dragDrop" : true
   },
   "images": {
-    "list": "images/modules/list.png",
+    "list": "modules/html/images/list.png",
     "screenshots": [
-      "images/modules/screenshot01.png",
-      "images/modules/screenshot02.png"
+      "modules/html/images/screenshot01.png",
+      "modules/html/images/screenshot02.png"
     ],
-    "popover": "images/modules/popover.png",
-    "banner": "images/modules/banner.png",
-    "logo": "images/modules/logo.png"
+    "popover": "modules/html/images/popover.png",
+    "banner": "modules/html/images/banner.png",
+    "logo": "modules/html/images/logo.png"
   }
 }
