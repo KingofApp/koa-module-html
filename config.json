@@ -41,7 +41,7 @@
     "key" : "value",
     "templateOptions" : {
         "label" : "Contenido",
-        "required" : true,
+        "required" : false,
         "description" : "Código html"
     }
   }, {
