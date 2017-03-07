@@ -2,8 +2,8 @@
   "name" : "Html",
   "identifier" : "html",
   "description": {
-    "es-ES": "Con este módulo podrás entrar tu mismo el código html. Para ello, y para que te sea más fácil, hemos habilitado un editor wysiwyg.",
-    "en-US": "Con este módulo podrás entrar tu mismo el código html. Para ello, y para que te sea más fácil, hemos habilitado un editor wysiwyg."
+    "es-ES": "Explora las posibilidades de personalización con este módulo, entrando tu propio código html. Para que tengas una experiencia más fluida, hemos habilitado un editor wysiwyg.",
+    "en-US": "Explore the possibilities of personalization with this module by entering your own html code. For a more seamless experience, we have enabled a wysiwyg editor."
   },
   "documentation": {
     "es-ES": "modules/html/documentation/es_ES.md",
@@ -11,7 +11,7 @@
   },
   "descriptionShort": {
     "es-ES": "Crea tu propio código HTML. ¡Ahora con editor wysiwyg!",
-    "en-US": "Crea tu propio código HTML. ¡Ahora con editor wysiwyg!"
+    "en-US": "Create your own HTML code. Now with a wysiwyg editor!"
   },
   "icon" : "code",
   "type" : "A",
