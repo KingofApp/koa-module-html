@@ -1,76 +1,82 @@
 {
-  "name" : "Html",
-  "identifier" : "html",
-  "description": {
-    "es-ES": "Explora las posibilidades de personalización con este módulo, entrando tu propio código html. Para que tengas una experiencia más fluida, hemos habilitado un editor wysiwyg.",
-    "en-US": "Explore the possibilities of personalization with this module by entering your own html code. For a more seamless experience, we have enabled a wysiwyg editor."
-  },
-  "documentation": {
-    "es-ES": "modules/html/documentation/es_ES.md",
-    "en-US": "modules/html/documentation/en_US.md"
-  },
-  "descriptionShort": {
-    "es-ES": "Crea tu propio código HTML. ¡Ahora con editor wysiwyg!",
-    "en-US": "Create your own HTML code. Now with a wysiwyg editor!"
-  },
-  "icon" : "code",
-  "type" : "A",
-  "version" : "1.0.6",
-  "author" : "King of App",
-  "category" : [
-      "others"
-  ],
-  "price" : 0,
-  "subscription": false,
-  "canContain": false,
-  "platforms" : [
-      "android",
-      "ios",
-      "windows"
-  ],
-  "view" : "modules/html/index.html",
-  "files" : [
-      "modules/html/controller.js"
-  ],
-  "scope" : {
-      "value" : "",
-      "display" : ""
-  },
-  "config" : [{
-    "type" : "wysiwyg",
-    "key" : "value",
-    "templateOptions" : {
-        "label" : "Contenido",
-        "required" : false,
-        "description" : "Código html"
-    }
-  }, {
-    "key": "display",
-    "type": "select",
-    "templateOptions": {
-      "label": "Display type",
-      "options": [{
-        "name": "Default",
-        "value": "none"
-      }, {
-        "name": "Card",
-        "value": "card"
-      }]
-    }
-  }],
-  "showOn" : {
-      "menu" : true,
-      "market" : true,
-      "dragDrop" : true
-  },
-  "images": {
-    "list": "modules/html/images/html_list.png",
-    "screenshots": [
-      "modules/html/images/htmle_screenshots01.png",
-      "modules/html/images/htmle_screenshots02.png"
+    "name": "Html",
+    "identifier": "html",
+    "description": {
+        "es-ES": "Explora las posibilidades de personalización con este módulo, entrando tu propio código html. Para que tengas una experiencia más fluida, hemos habilitado un editor wysiwyg.",
+        "en-US": "Explore the possibilities of personalization with this module by entering your own html code. For a more seamless experience, we have enabled a wysiwyg editor."
+    },
+    "documentation": {
+        "es-ES": "modules/html/documentation/es_ES.md",
+        "en-US": "modules/html/documentation/en_US.md"
+    },
+    "descriptionShort": {
+        "es-ES": "Crea tu propio código HTML. ¡Ahora con editor wysiwyg!",
+        "en-US": "Create your own HTML code. Now with a wysiwyg editor!"
+    },
+    "icon": "code",
+    "type": "A",
+    "version": "1.0.7",
+    "author": "King of App",
+    "category": [
+        "others"
     ],
-    "popover": "modules/html/images/html_popover.png",
-    "banner": "modules/html/images/html_popover.png",
-    "logo": "modules/html/images/html_icon.png"
-  }
+    "price": 0,
+    "subscription": false,
+    "canContain": false,
+    "platforms": [
+        "android",
+        "ios",
+        "windows"
+    ],
+    "view": "modules/html/index.html",
+    "files": [
+        "modules/html/controller.js"
+    ],
+    "scope": {
+        "value": "",
+        "display": ""
+    },
+    "config": [
+        {
+            "type": "wysiwyg",
+            "key": "value",
+            "templateOptions": {
+                "label": "Contenido",
+                "required": false,
+                "description": "Código html"
+            }
+        },
+        {
+            "key": "display",
+            "type": "select",
+            "templateOptions": {
+                "label": "Display type",
+                "options": [
+                    {
+                        "name": "Default",
+                        "value": "none"
+                    },
+                    {
+                        "name": "Card",
+                        "value": "card"
+                    }
+                ]
+            }
+        }
+    ],
+    "showOn": {
+        "menu": true,
+        "market": true,
+        "dragDrop": true
+    },
+    "images": {
+        "list": "modules/html/images/html_list.png",
+        "screenshots": [
+            "modules/html/images/htmle_screenshots01.png",
+            "modules/html/images/htmle_screenshots02.png"
+        ],
+        "popover": "modules/html/images/html_popover.png",
+        "banner": "modules/html/images/html_popover.png",
+        "logo": "modules/html/images/html_icon.png"
+    }
 }
