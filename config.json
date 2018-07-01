@@ -1,5 +1,10 @@
 {
     "name": "Html",
+    "name-lang": {
+        "es-ES": "Html",
+        "en-US": "Html",
+        "fr-FR": "Html"
+    },
     "identifier": "html",
     "description": {
         "es-ES": "Explora las posibilidades de personalización con este módulo, entrando tu propio código html. Para que tengas una experiencia más fluida, hemos habilitado un editor wysiwyg.",
@@ -15,7 +20,7 @@
     },
     "icon": "code",
     "type": "A",
-    "version": "1.0.8",
+    "version": "1.1.0",
     "author": "King of App",
     "category": [
         "others"
@@ -33,19 +38,21 @@
         "modules/html/controller.js"
     ],
     "scope": {
-        "value": "",
         "display": ""
     },
-    "config": [
-        {
-            "type": "wysiwyg",
-            "key": "value",
-            "templateOptions": {
-                "label": "Contenido",
-                "required": false,
-                "description": "Código html"
-            }
+    "scope-lang":{
+        "es-ES": {
+            "value": ""
         },
+        "en-US": {
+            "value": ""
+        },
+        "fr-FR":{
+            "value": ""
+        }
+    },
+    "config": [
+
         {
             "key": "display",
             "type": "select",
@@ -61,6 +68,17 @@
                         "value": "card"
                     }
                 ]
+            }
+        }
+    ],
+    "config-lang":[
+        {
+            "type": "wysiwyg",
+            "key": "value",
+            "templateOptions": {
+                "label": "Contenido",
+                "required": false,
+                "description": "Código html"
             }
         }
     ],
