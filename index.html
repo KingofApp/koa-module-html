@@ -1,6 +1,6 @@
 <div class="module html" ng-controller="HtmlController">
   <koa-card ng-if="html.modulescope.display == 'card'">
-    <div ng-bind-html="html.modulescope.value"></div>
+    <div ng-bind-html="code"></div>
   </koa-card>
-  <div ng-if="html.modulescope.display != 'card'" ng-bind-html="html.modulescope.value"></div>
+  <div ng-if="html.modulescope.display != 'card'" ng-bind-html="code"></div>
 </div>
