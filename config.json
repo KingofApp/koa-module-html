@@ -56,7 +56,7 @@
     "config": [
         {
             "type": "wysiwyg",
-            "key": "value-lang",
+            "key": "value",
             "templateOptions": {
                 "label": "Contenido",
                 "required": false,
