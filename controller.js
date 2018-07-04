@@ -10,7 +10,13 @@
   function loadFunction($scope, structureService, $location, $translate) {
     //Register upper level modules
     structureService.registerModule($location, $scope, 'html', $translate.use());
-    $scope.code = $scope.html.modulescopeall.value;
+    var config = $scope.html.modulescope;
+
+    if(config.useTranslate){
+     $scope.code = $scope.html.modulescope.value; 
+    }else{
+      $scope.code = $scope.html.modulescope["value-lang"]; 
+    }
   }
 
 }());
