@@ -35,21 +35,23 @@
     ],
     "view": "modules/html/index.html",
     "files": [
+        "modules/html/clearCssDirective.js",
         "modules/html/controller.js"
     ],
     "scope": {
         "value": "",
+        "styleCode": "",
         "display": "",
         "useTranslate": false
     },
-    "scope-lang":{
+    "scope-lang": {
         "es-ES": {
             "value-lang": ""
         },
         "en-US": {
             "value-lang": ""
         },
-        "fr-FR":{
+        "fr-FR": {
             "value-lang": ""
         }
     },
@@ -64,10 +66,17 @@
             }
         },
         {
+            "key": "styleCode",
+            "type": "textarea",
+            "templateOptions": {
+                "label": "My css editor"
+            }
+        },
+        {
             "type": "checkbox",
             "key": "useTranslate",
             "templateOptions": {
-                "description": "Use Translate or not",
+                "description": "Use Translate",
                 "label": "Use translate"
             }
         },
@@ -89,7 +98,7 @@
             }
         }
     ],
-    "config-lang":[
+    "config-lang": [
         {
             "type": "wysiwyg",
             "key": "value-lang",
