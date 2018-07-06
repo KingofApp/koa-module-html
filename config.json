@@ -41,6 +41,7 @@
     "scope": {
         "value": "",
         "styleCode": "",
+        "scriptCode": "",
         "display": "",
         "useTranslate": false
     },
@@ -69,7 +70,20 @@
             "key": "styleCode",
             "type": "textarea",
             "templateOptions": {
-                "label": "My css editor"
+                "label": "Css editor",
+                "description": "Put your styles here",
+                "rows": 5,
+                "grow": true
+            }
+        },
+        {
+            "key": "scriptCode",
+            "type": "textarea",
+            "templateOptions": {
+                "label": "Javascript editor",
+                "description": "Put your logic here",
+                "rows": 5,
+                "grow": true
             }
         },
         {

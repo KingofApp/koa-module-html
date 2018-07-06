@@ -19,6 +19,6 @@
     }
 
     $scope.styleCode = config.styleCode;
-
+    $scope.scriptCode = config.scriptCode;
   }
 }());
