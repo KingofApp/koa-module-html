@@ -1,4 +1,4 @@
-(function() {
+(function () {
   'use strict';
 
   angular
@@ -12,11 +12,20 @@
     structureService.registerModule($location, $scope, 'html', $translate.use());
     var config = $scope.html.modulescope;
 
-    if(config.useTranslate){
-     $scope.code = $scope.html.modulescope.value; 
-    }else{
-      $scope.code = $scope.html.modulescope["value-lang"]; 
+    if (config.useTranslate) {
+      $scope.code = $scope.html.modulescope["value-lang"];
+    } else {
+      $scope.code = $scope.html.modulescope.value;
+    }
+
+    $scope.styleCode = config.styleCode;
+
+    $scope.loadded = function () {
+      var scriptElement = document.createElement("script");
+      var scriptText = document.createTextNode(config.scriptCode);
+      scriptElement.appendChild(scriptText);
+
+      document.getElementById("koaScript").appendChild(scriptElement);
     }
   }
-
 }());
