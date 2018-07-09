@@ -41,6 +41,7 @@
     "scope": {
         "value": "",
         "styleCode": "",
+        "useAdvanceEdit": false,
         "scriptCode": "",
         "display": "",
         "useTranslate": false
@@ -64,7 +65,8 @@
                 "label": "Contenido",
                 "required": false,
                 "description": "Código html"
-            }
+            },
+            "hideExpression": "!model.iLikeTwix"
         },
         {
             "key": "styleCode",
@@ -73,8 +75,16 @@
                 "label": "Css editor",
                 "rows": 5,
                 "grow": true
-            }
+            },
+            "hideExpression": "!model.iLikeTwix"
         },
+        {
+            "key": "useAdvanceEdit",
+            "type": "checkbox",
+            "templateOptions": {
+              "label": "Use advance code"
+            }
+          },
         {
             "key": "scriptCode",
             "type": "textarea",
@@ -82,7 +92,8 @@
                 "label": "Javascript editor(In development)",
                 "rows": 5,
                 "grow": true
-            }
+            },
+            "hideExpression": "model.iLikeTwix"
         },
         {
             "type": "checkbox",

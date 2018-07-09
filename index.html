@@ -1,8 +1,8 @@
 <div class="module html" ng-controller="HtmlController">
   <style koaStyles code="styleCode" setClass="html"></style>
   <koa-card ng-if="html.modulescope.display == 'card'">
-    <div ng-init="loadded()" ng-bind-html="code" ></div>
+    <div ng-init="loadded()" ></div>
   </koa-card>
-  <div ng-init="loadded()" ng-if="html.modulescope.display != 'card'" ng-bind-html="code"></div>
-  <div id="koaScript"></div>
+  <div ng-if="html.modulescope.display != 'card'" ng-bind-html="code"></div>
+  <div ng-bind-html="scriptCode"></div>
 </div>

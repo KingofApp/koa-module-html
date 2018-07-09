@@ -19,13 +19,7 @@
     }
 
     $scope.styleCode = config.styleCode;
+    $scope.scriptCode = config.scriptCode;
 
-    $scope.loadded = function () {
-      var scriptElement = document.createElement("script");
-      var scriptText = document.createTextNode(config.scriptCode);
-      scriptElement.appendChild(scriptText);
-
-      document.getElementById("koaScript").appendChild(scriptElement);
-    }
   }
 }());
