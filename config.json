@@ -71,7 +71,6 @@
             "type": "textarea",
             "templateOptions": {
                 "label": "Css editor",
-                "description": "Put your styles here",
                 "rows": 5,
                 "grow": true
             }
@@ -80,8 +79,7 @@
             "key": "scriptCode",
             "type": "textarea",
             "templateOptions": {
-                "label": "Javascript editor",
-                "description": "Put your logic here",
+                "label": "Javascript editor(In development)",
                 "rows": 5,
                 "grow": true
             }
