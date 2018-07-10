@@ -1,9 +1,9 @@
 {
-    "name": "Html",
+    "name": "Html + CSS + Javascript",
     "name-lang": {
-        "es-ES": "Html",
-        "en-US": "Html",
-        "fr-FR": "Html"
+        "es-ES": "Html + CSS + Javascript",
+        "en-US": "Html + CSS + Javascript",
+        "fr-FR": "Html + CSS + Javascript"
     },
     "identifier": "html",
     "description": {
@@ -20,7 +20,7 @@
     },
     "icon": "code",
     "type": "A",
-    "version": "1.1.3",
+    "version": "1.1.4",
     "author": "King of App",
     "category": [
         "others"
@@ -79,7 +79,8 @@
             "key": "scriptCode",
             "type": "textarea",
             "templateOptions": {
-                "label": "Javascript editor(In development)",
+                "label": "Javascript editor",
+                "placeholder": "require the <script> tag if you only need put javascript code.  Recommended use document.querySelector('#elementId'); instead of document.getElementById('elementId');",
                 "rows": 5,
                 "grow": true
             }
@@ -118,7 +119,8 @@
                 "label": "Contenido",
                 "required": false,
                 "description": "Código html"
-            }
+            },
+            "hideExpression": "!model.useTranslate"
         }
     ],
     "showOn": {

@@ -7,5 +7,5 @@ Para poder jugar con el código, hemos habilitado un campo de texto en el que te
 ### Details:
 
 - Author: King of app
-- Version: 1.1.3
+- Version: 1.1.4
 - Homepage:
