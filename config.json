@@ -1,9 +1,9 @@
 {
-    "name": "Html",
+    "name": "Html + CSS + Javascript",
     "name-lang": {
-        "es-ES": "Html",
-        "en-US": "Html",
-        "fr-FR": "Html"
+        "es-ES": "Html + CSS + Javascript",
+        "en-US": "Html + CSS + Javascript",
+        "fr-FR": "Html + CSS + Javascript"
     },
     "identifier": "html",
     "description": {
@@ -41,7 +41,6 @@
     "scope": {
         "value": "",
         "styleCode": "",
-        "useAdvanceEdit": false,
         "scriptCode": "",
         "display": "",
         "useTranslate": false
@@ -65,8 +64,7 @@
                 "label": "Contenido",
                 "required": false,
                 "description": "Código html"
-            },
-            "hideExpression": "!model.useAdvanceEdit || !model.useTranslate"
+            }
         },
         {
             "key": "styleCode",
@@ -75,25 +73,17 @@
                 "label": "Css editor",
                 "rows": 5,
                 "grow": true
-            },
-            "hideExpression": "!model.useAdvanceEdit"
-        },
-        {
-            "key": "useAdvanceEdit",
-            "type": "checkbox",
-            "templateOptions": {
-              "label": "Use advance code"
             }
-          },
+        },
         {
             "key": "scriptCode",
             "type": "textarea",
             "templateOptions": {
-                "label": "unlocked editor",
+                "label": "Javascript editor",
+                "placeholder": "require the <script> tag if you only need put javascript code.  Recommended use document.querySelector('#elementId'); instead of document.getElementById('elementId');",
                 "rows": 5,
                 "grow": true
-            },
-            "hideExpression": "model.useAdvanceEdit"
+            }
         },
         {
             "type": "checkbox",
