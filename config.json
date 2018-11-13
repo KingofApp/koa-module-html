@@ -2,8 +2,7 @@
     "name": "Html + CSS + Javascript",
     "name-lang": {
         "es-ES": "Html + CSS + Javascript",
-        "en-US": "Html + CSS + Javascript",
-        "fr-FR": "Html + CSS + Javascript"
+        "en-US": "Html + CSS + Javascript"
     },
     "identifier": "html",
     "description": {
@@ -48,11 +47,9 @@
     "scope-lang": {
         "es-ES": {
             "value-lang": ""
+
         },
         "en-US": {
-            "value-lang": ""
-        },
-        "fr-FR": {
             "value-lang": ""
         }
     },
@@ -113,7 +110,7 @@
     ],
     "config-lang": [
         {
-            "type": "wysiwyg",
+            "type": "input",
             "key": "value-lang",
             "templateOptions": {
                 "label": "Contenido",
