@@ -110,14 +110,13 @@
     ],
     "config-lang": [
         {
-            "type": "input",
+            "type": "wysiwyg",
             "key": "value-lang",
             "templateOptions": {
                 "label": "Contenido",
                 "required": false,
                 "description": "Código html"
-            },
-            "hideExpression": "!model.useTranslate"
+            }
         }
     ],
     "showOn": {
