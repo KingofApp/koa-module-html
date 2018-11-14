@@ -81,7 +81,7 @@
                 "rows": 5,
                 "grow": true
             }
-        },
+        }/*,
         {
             "type": "checkbox",
             "key": "useTranslate",
@@ -89,7 +89,7 @@
                 "description": "Use Translate",
                 "label": "Use translate"
             }
-        },
+        }*/,
         {
             "key": "display",
             "type": "select",
