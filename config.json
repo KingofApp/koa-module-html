@@ -83,6 +83,14 @@
             }
         },
         {
+            "type": "checkbox",
+            "key": "useTranslate",
+            "templateOptions": {
+                "description": "Use Translate",
+                "label": "Use translate"
+            }
+        },
+        {
             "key": "display",
             "type": "select",
             "templateOptions": {
