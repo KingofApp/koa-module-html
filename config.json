@@ -46,11 +46,12 @@
     },
     "scope-lang": {
         "es-ES": {
-            "value-lang": ""
-
+            "valueLang": "",
+            "scriptCodeLang":""
         },
         "en-US": {
-            "value-lang": ""
+            "valueLang": "",
+            "scriptCodeLang":""
         }
     },
     "config": [
@@ -110,12 +111,21 @@
     ],
     "config-lang": [
         {
-            "type": "wysiwyg",
-            "key": "value-lang",
+            "key": "valueLang",
+            "type": "textarea",
             "templateOptions": {
                 "label": "Contenido",
-                "required": false,
+                "rows": 70,
                 "description": "Código html"
+            }
+        },
+        {
+            "key": "scriptCodeLang",
+            "type": "textarea",
+            "templateOptions": {
+                "label": "Javascript",
+                "rows": 70,
+                "description": "Código Javascript"
             }
         }
     ],
