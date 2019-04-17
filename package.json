@@ -1,6 +1,6 @@
 {
     "name": "koapp-module-html",
-    "version": "1.1.5",
+    "version": "1.1.6",
     "description": "Crea tu propio código HTML. ¡Ahora con editor wysiwyg!",
     "directories": {
         "test": "test"
